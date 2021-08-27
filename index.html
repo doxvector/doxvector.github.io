@@ -1,0 +1,166 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typeit@8.0.1/dist/index.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      @font-face {
+        font-family: raleway-bold;
+        src: url(Raleway-Bold.ttf);
+      }
+      @font-face {
+        font-family: lato-regular;
+        src: url(Lato-Regular.ttf);
+      }
+      @font-face {
+        font-family: lato-bold;
+        src: url(Lato-Bold.ttf);
+      }
+      @font-face {
+        font-family: roboto-bold;
+        src: url(Roboto-Bold.ttf);
+      }
+      body {
+        background-image: url("./containerShip3.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        text-color: white;
+        color: white;
+        font-family: raleway-bold;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+      }
+      #mainText {
+        display: block;
+        font-size: 60px;
+        margin: auto;
+        text-align: left;
+        margin: 0;
+        border: 0;
+        vertical-align: baseline;
+        line-height: 1.2em;
+        color: white;
+        background: 0 0;
+        padding: 0;
+        display: block;
+        width: 80%;
+        z-index: 100;
+      }
+
+      /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+      @media screen and (min-width: 601px) {
+        #mainText {
+          font-size: 60px !important;
+        }
+        #colorText {
+          font-size: 70px !important;
+        }
+        body {
+          background-image: url("./containerShip3.png");
+        }
+      }
+
+      /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+      @media screen and (max-width: 600px) {
+        #mainText {
+          font-size: 40px !important;
+        }
+        #colorText {
+          font-size: 45px !important;
+        }
+        body {
+          background-image: url("./containerShip4.png");
+        }
+      }
+
+      .button {
+        display: block;
+        text-decoration: none;
+        background-color: rgba(76, 175, 80, 0);
+        border: white;
+        border-radius: 10px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        letter-spacing: 1.4px;
+        z-index: 100;
+        position: absolute;
+        bottom: 5%;
+        font-family: roboto-bold;
+        border: 4px solid white;
+        max-height: 10%;
+      }
+      .button:hover {
+        background-color: rgba(76, 175, 80, 1);
+        color: white;
+      }
+      .button:click {
+        background-color: white;
+        color: #006442;
+      }
+      #container {
+        background-color: rgba(0, 0, 0, 0.8);
+        background: linear-gradient(45deg, #fff, #fff 10%, #000 10%, #000);
+        background-size: 10px 10px;
+        opacity: 0.4;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+      }
+      #mainStuff {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      #colorText {
+      }
+    </style>
+  </head>
+  <body>
+    <!--<div id="container"></div>-->
+    <div style="margin-bottom: 10%; height: 90%">
+      <div
+        style="
+          height: 100%;
+          margin-top: auto;
+          margin-bottom: auto;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          z-index: 100;
+        "
+      >
+        <div id="mainText">
+          <span id="mainStuff"></span>
+        </div>
+        <br />
+        <a class="button" href="mailto:sh@dotvector.io">
+          <i
+            class="fa fa-envelope"
+            style="margin-right: 10px; margin-left: -10px"
+          >
+          </i>
+          <span style="font-family: roboto-bold"> Contact Us </span>
+        </a>
+      </div>
+    </div>
+
+    <script>
+      new TypeIt("#mainStuff", {
+        strings:
+          "Accelerating <span id='colorText' style='color:#f46524;'>Warehouses & Logistics</span> with Conversational Intelligence <br> <br>Coming soon!",
+      }).go();
+    </script>
+  </body>
+</html>
