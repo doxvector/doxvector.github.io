@@ -10,7 +10,6 @@
         "../scss/_hero.scss",
         "../scss/_features.scss",
         "../scss/_about.scss",
-        "../scss/_pricing.scss",
         "../scss/_faq.scss",
         "../scss/_testimonials.scss",
         "../scss/_team.scss",
