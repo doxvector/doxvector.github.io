@@ -833,8 +833,9 @@ p {
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
-    /* overflow: hidden; */
+    justify-content:center;
+    align-items: center;
+ 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
@@ -842,6 +843,12 @@ p {
     .ud-about-wrapper {
         display: block;
     }
+}
+
+.ud-about-image {
+    text-align: center;
+   
+    max-width: 500px;
 }
 
 .ud-about-content-wrapper {
@@ -904,6 +911,7 @@ p {
 (max-width: 767px) {
     .ud-about-image {
         text-align: center;
+        padding-left: 150px;
         max-width: 500px;
     }
 }
