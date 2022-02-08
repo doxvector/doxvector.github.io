@@ -834,6 +834,7 @@ p {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    /* overflow: hidden; */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
@@ -903,6 +904,7 @@ p {
 (max-width: 767px) {
     .ud-about-image {
         text-align: center;
+        max-width: 500px;
     }
 }
 
