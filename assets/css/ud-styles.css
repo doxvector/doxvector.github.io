@@ -126,7 +126,7 @@ ol {
 p {
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 1;
     color: var(--body-color);
     margin: 0px;
 }
@@ -816,12 +816,12 @@ p {
 
 .ud-about {
     background: #f3f4fe;
-    padding: 120px 0;
+    padding: 60px 0;
 }
 
 @media (max-width: 767px) {
     .ud-about {
-        padding: 80px 0;
+        padding: 40px 0;
     }
 }
 
@@ -831,9 +831,10 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+   
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content:center;
+    /* justify-content:center; */
     align-items: center;
  
 }
