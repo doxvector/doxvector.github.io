@@ -529,7 +529,11 @@ p {
 
 .ud-hero {
     background: var(--primary-color);
-    padding-top: 180px;
+    min-height: 100vh;
+    background-image: url("../images/hero/Dotvectornew1.svg");
+    background-size: cover;
+    padding-top: 300px;
+    margin-left: 0px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -546,7 +550,10 @@ p {
 
 .ud-hero-content {
     max-width: 780px;
-    margin: auto;
+    /* margin: auto; */
+    text-align: left;
+    margin-left: 0px;
+    
     margin-bottom: 30px;
 }
 
@@ -555,8 +562,15 @@ p {
     font-weight: 700;
     font-size: 45px;
     line-height: 60px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 30px;
+}
+ .ud-hero-desc {
+    text-align :left;
+    align-items: flex-start;
+    /* margin-left: -10px; */
+    padding-left: 0px;;
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -577,12 +591,13 @@ p {
     font-weight: normal;
     font-size: 20px;
     line-height: 35px;
-    text-align: center;
+    text-align: left;
     color: var(--white);
     opacity: 0.8;
     max-width: 600px;
     margin: auto;
     margin-bottom: 30px;
+    margin-left: 0px;
 }
 
 @media (max-width: 767px) {
@@ -598,25 +613,33 @@ p {
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
+    align-items:left;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
+    justify-content:left;
 }
 
 .ud-hero-buttons .ud-main-btn {
     margin: 8px;
+    margin-left: 0px;
+}
+.ud-link-btn{
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
 @media (max-width: 767px) {
     .ud-hero-buttons .ud-main-btn {
         margin: 5px;
+        margin-left: 0px;
     }
 }
 
 @media (max-width: 767px) {
     .ud-hero-buttons .ud-main-btn {
         padding: 12px 16px;
+        margin-left: 0px;
+        padding-left: 0px;
     }
 }
 
@@ -639,8 +662,9 @@ p {
 }
 
 .ud-hero-brands-wrapper {
-    text-align: center;
+    text-align:left;
     margin-bottom: 40px;
+    /* padding: 50px; */
 }
 
 .ud-hero-brands-wrapper img {
@@ -849,9 +873,9 @@ p {
 
 .ud-about-image {
     text-align:right;
- 
+    padding-right:50px;
    
-    max-width: 400px;
+    max-width: 450px;
 }
 
 .ud-about-content-wrapper {
