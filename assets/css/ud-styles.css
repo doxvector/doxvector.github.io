@@ -834,7 +834,7 @@ p {
    
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    /* justify-content:center; */
+    justify-content:space-between;
     align-items: center;
  
 }
@@ -843,13 +843,15 @@ p {
 (max-width: 767px) {
     .ud-about-wrapper {
         display: block;
+        justify-content: center;
     }
 }
 
 .ud-about-image {
-    text-align: center;
+    text-align:right;
+ 
    
-    max-width: 500px;
+    max-width: 400px;
 }
 
 .ud-about-content-wrapper {
