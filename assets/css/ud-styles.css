@@ -531,7 +531,7 @@ p {
     background: var(--primary-color);
     min-height: 100vh;
     background-image: url("../images/hero/Dotvectornew1.svg");
-    background-size: cover;
+    background-size:contain;
     padding-top: 300px;
     margin-left: 0px;
 }
