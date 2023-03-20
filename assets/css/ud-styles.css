@@ -533,10 +533,11 @@ p {
     background: var(--primary-color);
     min-height: 100vh;
     background-image: url("../images/hero/Dotvectornew1.svg");
-    background-size:contain;
+    background-size: 70% !important;
     background-repeat: no-repeat;
     padding-top: 300px;
     margin-left: 0px;
+    background-position: center !important;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1238px) {
