@@ -2609,5 +2609,10 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
     }
 }
 
+.initial-brands-image {
+    padding: 8px;
+    height: 35px;
+    filter: invert(100%);
+}
 
 /*# sourceMappingURL=ud-styles.css.map */
