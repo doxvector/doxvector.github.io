@@ -2617,4 +2617,8 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
     filter: invert(100%);
 }
 
+.footer-partners {
+    height:30px;
+}
+
 /*# sourceMappingURL=ud-styles.css.map */
