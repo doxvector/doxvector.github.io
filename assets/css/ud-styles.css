@@ -1481,13 +1481,18 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .ud-widget .ud-footer-logo {
-    max-width: 160px;
-    display: block;
     margin-bottom: 10px;
+    overflow:visible;
+    min-width:230px;
+    margin-left:-50px;
 }
 
 .ud-widget .ud-footer-logo img {
-    width: 100%;
+    max-height: 90px;
+    min-width:230px;
+    width:100%;
+    margin:0px;
+    padding:0px
 }
 
 .ud-widget .ud-widget-desc {
