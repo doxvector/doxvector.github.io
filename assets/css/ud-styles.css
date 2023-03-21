@@ -2612,7 +2612,7 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
 
 .initial-brands-image {
     padding: 8px;
-    height: 40px;
+    height: 45px;
     min-height:4%;
     filter: invert(100%);
 }
